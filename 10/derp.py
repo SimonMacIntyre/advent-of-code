@@ -26,7 +26,7 @@ print(difference_counts[1] * difference_counts[3])
 tribonacciSequence = [1, 1, 2, 4, 7, 13, 24, 44, 81, 149]
 
 
-def fuck_you(num):
+def thisisstupid(num):
     if num > len(tribonacciSequence):
         print('poop')
         exit()
@@ -39,7 +39,7 @@ for joltage in data:
     if joltage + 1 in data:
         currentRun += 1
     else:
-        multiplier *= fuck_you(currentRun)
+        multiplier *= thisisstupid(currentRun)
         currentRun = 1
 
 print(multiplier)
