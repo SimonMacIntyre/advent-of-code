@@ -10,11 +10,6 @@ def int_to_binary(value):
     return f"{int(value):036b}"
 
 
-# 36 bit
-def binary_to_int(value):
-    return int(str(value), 2)
-
-
 def process_floating_bits_from_binary(binary):
     new_binaries = []
     floating_bits = binary.count('X')
