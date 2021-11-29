@@ -1004,6 +1004,7 @@ data = [
 import re as regex
 
 pattern = regex.compile('^(.*)-(.*) (.*): (.*)$')
+pattern = regex.compile('^;listen\\.owner$')
 
 valid = 0
 for line in data:
