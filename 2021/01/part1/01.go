@@ -19,7 +19,7 @@ func main() {
 	defer f.Close()
 
 	count := 0
-	var prev int64 = 0
+	var prev int = 0
 	i := 0
 
 	scanner := bufio.NewScanner(f)
